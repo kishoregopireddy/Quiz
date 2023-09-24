@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .quiz-container {
+    background-color:lemonchiffon;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #0f0f0f;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(2, 246, 254, 0.979);
+  }
+  
+  .question {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
